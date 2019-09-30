@@ -27,6 +27,7 @@ class Welcome extends CI_Controller
 		$curl = curl_init();
 		//Min Min
 		//Min dev
+		//Min master
 		curl_setopt_array($curl, array(
 			CURLOPT_URL => "http://api.youtrade.vn/news/",
 			CURLOPT_RETURNTRANSFER => true,
