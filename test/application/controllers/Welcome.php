@@ -25,7 +25,7 @@ class Welcome extends CI_Controller
 		// $json = json_decode($json);
 		// echo $json->currentPrice;
 		$curl = curl_init();
-		//Min Min
+		//Min Min ngu ngốc
 		//Min dev
 		//Min master
 		curl_setopt_array($curl, array(
