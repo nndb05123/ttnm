@@ -25,7 +25,7 @@ class Welcome extends CI_Controller
 		// $json = json_decode($json);
 		// echo $json->currentPrice;
 		$curl = curl_init();
-
+		//Min Min
 		curl_setopt_array($curl, array(
 			CURLOPT_URL => "http://api.youtrade.vn/news/",
 			CURLOPT_RETURNTRANSFER => true,

@@ -9,6 +9,8 @@ class test extends CI_Controller {
         parent::__construct();
         
     }
+
+    //Min ngu ngốc
     
 	public function index()
 	{
